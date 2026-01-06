@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #ffe6ee, #ffffff);
+    color: #333;
+    text-align: center;
+}
+
+/* MUSIC BUTTON */
+.music-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background: #d6336c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.9em;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    color: #d6336c;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* STORY */
+.story {
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.story-card {
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.story-card img {
+    width: 100%;
+    display: block;
+}
+
+.story-text {
+    padding: 20px;
+    font-size: 1.05em;
+    line-height: 1.6;
+    color: #d6336c;
+}
+
+/* FINAL MESSAGE */
+.final-message {
+    padding: 60px 20px;
+    background: #fff0f5;
+}
+
+.final-message h2 {
+    font-size: 2em;
+}
+
+.final-message p {
+    max-width: 500px;
+    margin: auto;
+    line-height: 1.7;
+}
